@@ -1,5 +1,7 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/input_frontend.v",
+"src/register_pair.v",
+"src/lab2_register.v"],
+  "testbench": "sim/tb_register_pair.sv",
+  "simulation_top": "tb_register_pair"
 }
